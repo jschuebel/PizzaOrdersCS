@@ -1,0 +1,776 @@
+# Pizza
+
+Produced with C# Core 3.0
+
+##Top 20 Combinations
+- pepperoni 
+- mozzarella cheese 
+- four cheese 
+- bacon 
+- beef 
+- sausage 
+- italian sausage 
+- chicken 
+- pepperoni, four cheese 
+- ham 
+- mushrooms 
+- mozzarella cheese, pepperoni 
+- pepperoni, beef 
+- bacon, pepperoni 
+- black olives 
+- alredo sauce 
+- sausage, pepperoni 
+- cheddar cheese 
+
+##Order and Rank
+##Rank    Count   Combination
+- 16   101   alredo sauce
+- 436   1   alredo sauce, beef
+- 87   7   alredo sauce, black olives
+- 95   6   alredo sauce, four cheese
+- 118   5   anchovies
+- 345   1   anchovies, diced white onions, pepperoni, bacon, italian sausage, black olives
+- 270   2   anchovies, mushrooms, chicken
+- 362   1   anchovies, pepperoni, italian sausage, bacon
+- 525   1   artichokes, bacon, pepperoni, chicken
+- 327   1   artichokes, bacon, sliced breaded chicken breast, four cheese
+- 268   2   artichokes, beef, mushrooms
+- 276   2   artichokes, chicken, diced white onions, pineapple
+- 455   1   artichokes, feta cheese, pepperoni, mushrooms
+- 421   1   artichokes, mushrooms, black olives, pepperoni
+- 141   4   artichokes, mushrooms, chicken
+- 673   1   artichokes, pepperoni, sliced roma tomatoes, black olives, mushrooms
+- 660   1   artichokes, pineapple, sliced roma tomatoes, black olives, chicken, green peppers, fresh basil
+- 711   1   artichokes, sliced roma tomatoes, onions, parmesan parsley, green peppers, mozzarella cheese
+- 4   732   bacon
+- 214   2   bacon, alredo sauce
+- 567   1   bacon, artichokes, italian sausage, mushrooms
+- 423   1   bacon, artichokes, pepperoni, sausage, green peppers, diced white onions, mushrooms, mushrooms
+- 34   24   bacon, beef
+- 245   2   bacon, beef, cheddar cheese, chicken
+- 601   1   bacon, beef, chicken, sausage
+- 184   3   bacon, beef, four cheese, pepperoni
+- 510   1   bacon, beef, sausage, chicken, canadian bacon
+- 111   5   bacon, black olives, four cheese
+- 574   1   bacon, black olives, green peppers, pepperoni
+- 100   6   bacon, black olives, pepperoni
+- 604   1   bacon, black olives, pepperoni, mushrooms, jalapenos
+- 685   1   bacon, canadian bacon, pepperoni, onions, sliced roma tomatoes, chicken, mozzarella cheese, sausage
+- 669   1   bacon, canadian bacon, pineapple
+- 615   1   bacon, cheddar cheese, beef
+- 657   1   bacon, cheddar cheese, four cheese, beef
+- 44   18   bacon, chicken
+- 637   1   bacon, chicken, ham, sliced breaded chicken breast, beef
+- 606   1   bacon, chicken, onions, mushrooms
+- 361   1   bacon, diced tomatoes, chicken, four cheese, mozzarella cheese
+- 402   1   bacon, diced white onions, beef
+- 149   4   bacon, diced white onions, mushrooms
+- 475   1   bacon, diced white onions, pepperoni, beef
+- 91   7   bacon, diced white onions, pepperoni, mozzarella cheese
+- 399   1   bacon, diced white onions, pepperoni, sausage
+- 683   1   bacon, four cheese, anchovies
+- 216   2   bacon, four cheese, beef
+- 199   3   bacon, four cheese, beef, diced white onions
+- 561   1   bacon, four cheese, diced tomatoes, onions
+- 638   1   bacon, four cheese, diced white onions, pepperoni
+- 471   1   bacon, four cheese, feta cheese, pepperoni
+- 482   1   bacon, four cheese, pepperoni, black olives, sausage
+- 498   1   bacon, four cheese, sausage
+- 192   3   bacon, green peppers
+- 675   1   bacon, green peppers, chicken, pepperoni, mushrooms
+- 599   1   bacon, green peppers, diced white onions, mushrooms
+- 256   2   bacon, green peppers, diced white onions, pepperoni, mozzarella cheese
+- 742   1   bacon, green peppers, roasted red pepper, black olives, mushrooms, jalapenos, diced tomatoes, pepperoni
+- 682   1   bacon, green peppers, sausage
+- 478   1   bacon, ham, cheddar cheese, pepperoni
+- 372   1   bacon, ham, chicken, cheddar cheese, pepperoni
+- 348   1   bacon, ham, diced white onions, beef, four cheese
+- 625   1   bacon, ham, four cheese, black olives
+- 578   1   bacon, ham, mushrooms
+- 622   1   bacon, hot peppers
+- 537   1   bacon, italian sausage, mushrooms, four cheese, black olives, pepperoni
+- 125   5   bacon, jalapenos
+- 739   1   bacon, jalapenos, black olives, sausage
+- 495   1   bacon, jalapenos, chicken, mushrooms
+- 609   1   bacon, jalapenos, diced white onions, pepperoni, black olives
+- 202   3   bacon, jalapenos, pepperoni
+- 62   12   bacon, mozzarella cheese
+- 474   1   bacon, mushrooms, beef
+- 746   1   bacon, mushrooms, parmesan parsley, canadian bacon, italian sausage, diced white onions, pepperoni, onions, sausage, beef
+- 385   1   bacon, mushrooms, pineapple
+- 86   7   bacon, mushrooms, pineapple, black olives
+- 219   2   bacon, onions, beef
+- 699   1   bacon, onions, beef, four cheese
+- 521   1   bacon, parmesan parsley, beef, green peppers, mushrooms, diced white onions, diced tomatoes
+- 14   121   bacon, pepperoni
+- 490   1   bacon, pepperoni, anchovies
+- 97   6   bacon, pepperoni, beef
+- 646   1   bacon, pepperoni, black olives, sausage, four cheese, beef
+- 264   2   bacon, pepperoni, canadian bacon, ham, beef
+- 441   1   bacon, pepperoni, diced white onions
+- 178   3   bacon, pepperoni, green peppers
+- 728   1   bacon, pepperoni, green peppers, mushrooms, sausage
+- 169   3   bacon, pepperoni, ham
+- 162   3   bacon, pepperoni, italian sausage, canadian bacon, four cheese
+- 226   2   bacon, pepperoni, mozzarella cheese
+- 75   8   bacon, pepperoni, mushrooms
+- 68   10   bacon, pepperoni, sausage
+- 435   1   bacon, pineapple, green peppers, diced white onions
+- 405   1   bacon, pineapple, pepperoni, sausage
+- 297   2   bacon, sausage, beef
+- 621   1   bacon, sausage, four cheese, beef, italian sausage, canadian bacon, pepperoni, ham
+- 572   1   bacon, sausage, mushrooms, diced white onions, beef, four cheese, anchovies
+- 172   3   bacon, sausage, pepperoni, four cheese
+- 248   2   bacon, sliced breaded chicken breast, four cheese
+- 5   623   beef
+- 563   1   beef, bacon, four cheese, mushrooms
+- 152   4   beef, bacon, jalapenos
+- 57   13   beef, black olives
+- 165   3   beef, black olives, mozzarella cheese
+- 135   4   beef, black olives, pepperoni
+- 338   1   beef, black olives, pepperoni, mushrooms, artichokes
+- 176   3   beef, cheddar cheese
+- 99   6   beef, diced tomatoes, diced white onions, green peppers
+- 250   2   beef, diced white onions
+- 33   24   beef, four cheese
+- 355   1   beef, four cheese, onions, diced white onions
+- 517   1   beef, garlic basil oil, mozzarella cheese, hot peppers
+- 720   1   beef, giant pepperoni
+- 78   8   beef, green peppers
+- 411   1   beef, italian sausage, mozzarella cheese, pepperoni
+- 206   3   beef, jalapenos
+- 655   1   beef, jalapenos, italian sausage
+- 120   5   beef, jalapenos, mushrooms
+- 519   1   beef, mozzarella cheese, bacon
+- 487   1   beef, mozzarella cheese, bacon, pepperoni
+- 218   2   beef, mushrooms, four cheese
+- 706   1   beef, onions
+- 239   2   beef, onions, black olives
+- 680   1   beef, onions, sausage, mushrooms
+- 189   3   beef, pepperoni, diced white onions, mushrooms
+- 74   9   beef, pepperoni, jalapenos
+- 432   1   beef, pepperoni, sausage, four cheese
+- 260   2   beef, pineapple
+- 745   1   beef, pineapple, jalapenos
+- 373   1   beef, sausage, ham, mushrooms, diced tomatoes
+- 15   117   black olives
+- 566   1   black olives, alredo sauce, green peppers
+- 73   9   black olives, bacon
+- 101   6   black olives, canadian bacon
+- 328   1   black olives, cheddar cheese, mushrooms
+- 656   1   black olives, chicken, artichokes
+- 444   1   black olives, diced white onions, beef
+- 116   5   black olives, four cheese
+- 497   1   black olives, four cheese, bacon, pepperoni, cheddar cheese
+- 217   2   black olives, four cheese, beef
+- 639   1   black olives, four cheese, canadian bacon
+- 123   5   black olives, green peppers, beef
+- 137   4   black olives, green peppers, mozzarella cheese, diced tomatoes
+- 232   2   black olives, italian sausage
+- 66   11   black olives, mozzarella cheese
+- 689   1   black olives, mozzarella cheese, canadian bacon, anchovies
+- 158   4   black olives, mozzarella cheese, diced white onions, chicken, green peppers, mushrooms
+- 376   1   black olives, mozzarella cheese, mushrooms, sausage
+- 591   1   black olives, mozzarella cheese, pepperoni, mushrooms, onions
+- 488   1   black olives, mushrooms, four cheese, beef
+- 131   4   black olives, mushrooms, pepperoni, onions
+- 77   8   black olives, onions, sausage
+- 339   1   black olives, pepperoni, canadian bacon, pineapple
+- 507   1   black olives, pepperoni, cheddar cheese
+- 330   1   black olives, pepperoni, diced white onions
+- 476   1   black olives, pepperoni, mushrooms, four cheese, onions
+- 568   1   black olives, pepperoni, parmesan parsley
+- 177   3   black olives, pepperoni, sausage
+- 244   2   black olives, pineapple
+- 403   1   black olives, pineapple, pepperoni
+- 144   4   canadian bacon, bacon
+- 596   1   canadian bacon, bacon, beef
+- 445   1   canadian bacon, bacon, beef, sausage
+- 483   1   canadian bacon, bacon, ham
+- 586   1   canadian bacon, bacon, mozzarella cheese, pepperoni, sausage
+- 147   4   canadian bacon, bacon, pepperoni
+- 672   1   canadian bacon, bacon, pepperoni, italian sausage, black olives, sausage, four cheese
+- 434   1   canadian bacon, beef
+- 391   1   canadian bacon, beef, pepperoni
+- 157   4   canadian bacon, feta cheese, pineapple
+- 619   1   canadian bacon, four cheese, cheddar cheese, ham
+- 317   1   canadian bacon, four cheese, pineapple, chicken
+- 433   1   canadian bacon, four cheese, sausage, pepperoni
+- 185   3   canadian bacon, italian sausage, ham, mushrooms, diced tomatoes
+- 462   1   canadian bacon, italian sausage, ham, pineapple, four cheese
+- 173   3   canadian bacon, italian sausage, pepperoni
+- 653   1   canadian bacon, mushrooms, pepperoni, four cheese, sausage
+- 196   3   canadian bacon, mushrooms, sausage
+- 63   12   canadian bacon, pepperoni
+- 341   1   canadian bacon, pepperoni, beef, four cheese
+- 731   1   canadian bacon, pepperoni, black olives, diced white onions, italian sausage, mushrooms, diced tomatoes
+- 565   1   canadian bacon, pepperoni, mushrooms
+- 296   2   canadian bacon, pepperoni, sausage
+- 81   7   canadian bacon, pineapple
+- 29   30   canadian bacon, sausage, pineapple, bacon
+- 632   1   carmelized red onion, mozzarella cheese, pepperoni
+- 18   95   cheddar cheese
+- 84   7   cheddar cheese, bacon
+- 549   1   cheddar cheese, beef, pepperoni
+- 55   14   cheddar cheese, four cheese
+- 696   1   cheddar cheese, italian sausage
+- 79   8   cheddar cheese, pepperoni
+- 203   3   cheddar cheese, pepperoni, four cheese
+- 559   1   cheddar cheese, pepperoni, mushrooms, bacon, black olives
+- 8   229   chicken
+- 360   1   chicken, alredo sauce
+- 670   1   chicken, artichokes
+- 684   1   chicken, bacon, mozzarella cheese, roasted red pepper
+- 80   8   chicken, beef
+- 666   1   chicken, black olives, bacon, four cheese, beef, onions
+- 726   1   chicken, black olives, pepperoni, diced tomatoes, onions
+- 735   1   chicken, black olives, sliced roma tomatoes, bacon
+- 724   1   chicken, black olives, sliced roma tomatoes, bacon, pepperoni
+- 465   1   chicken, cheddar cheese
+- 220   2   chicken, diced tomatoes
+- 242   2   chicken, diced white onions
+- 106   5   chicken, four cheese
+- 261   2   chicken, green peppers
+- 577   1   chicken, ham
+- 396   1   chicken, italian sausage, four cheese, beef, sausage
+- 377   1   chicken, mozzarella cheese, bacon
+- 349   1   chicken, mushrooms, diced white onions, black olives, green peppers
+- 681   1   chicken, onions, green peppers, black olives, jalapenos, pepperoni
+- 168   3   chicken, pineapple
+- 36   22   diced tomatoes
+- 422   1   diced tomatoes, bacon
+- 688   1   diced tomatoes, bacon, mushrooms, jalapenos
+- 651   1   diced tomatoes, bacon, pepperoni
+- 351   1   diced tomatoes, beef, chicken
+- 453   1   diced tomatoes, beef, four cheese, mushrooms
+- 597   1   diced tomatoes, black olives, diced white onions, jalapenos, green peppers
+- 732   1   diced tomatoes, four cheese, bacon, chicken
+- 545   1   diced tomatoes, four cheese, beef, bacon
+- 446   1   diced tomatoes, four cheese, beef, pepperoni, artichokes, mushrooms, mushrooms
+- 410   1   diced tomatoes, four cheese, pepperoni
+- 233   2   diced tomatoes, ham, mushrooms, beef, pepperoni
+- 547   1   diced tomatoes, jalapenos, pepperoni, bacon, chicken
+- 573   1   diced tomatoes, mushrooms, four cheese, sliced breaded chicken breast, black olives
+- 708   1   diced tomatoes, mushrooms, sausage, black olives, onions, green peppers, giant pepperoni
+- 608   1   diced tomatoes, pepperoni, mushrooms, green peppers
+- 489   1   diced tomatoes, sausage, green peppers, italian sausage
+- 457   1   diced tomatoes, sausage, green peppers, pepperoni
+- 43   18   diced white onions
+- 585   1   diced white onions, bacon, mushrooms, ham, italian sausage
+- 272   2   diced white onions, beef, mushrooms, black olives
+- 109   5   diced white onions, beef, pepperoni
+- 461   1   diced white onions, canadian bacon, mushrooms, sausage
+- 312   1   diced white onions, four cheese, beef, jalapenos
+- 473   1   diced white onions, mozzarella cheese, mushrooms, black olives
+- 618   1   diced white onions, mozzarella cheese, pepperoni
+- 587   1   diced white onions, mushrooms
+- 481   1   diced white onions, mushrooms, black olives
+- 383   1   diced white onions, mushrooms, pepperoni, bacon, black olives
+- 527   1   diced white onions, pepperoni, green peppers, black olives
+- 456   1   diced white onions, pepperoni, jalapenos, beef
+- 107   5   diced white onions, pepperoni, mushrooms
+- 467   1   diced white onions, sausage, ham
+- 30   28   feta cheese
+- 397   1   feta cheese, bacon
+- 703   1   feta cheese, bacon, pepperoni
+- 291   2   feta cheese, bacon, pepperoni, black olives
+- 389   1   feta cheese, four cheese
+- 458   1   feta cheese, green peppers
+- 394   1   feta cheese, mushrooms, black olives
+- 3   956   four cheese
+- 692   1   four cheese, anchovies
+- 32   25   four cheese, bacon
+- 538   1   four cheese, bacon, cheddar cheese
+- 398   1   four cheese, beef, chicken
+- 246   2   four cheese, beef, mushrooms, green peppers, pepperoni
+- 664   1   four cheese, canadian bacon, bacon, mushrooms, pepperoni, green peppers, jalapenos, diced white onions, mozzarella cheese, sausage
+- 337   1   four cheese, canadian bacon, jalapenos, pineapple
+- 112   5   four cheese, diced tomatoes
+- 459   1   four cheese, diced white onions
+- 329   1   four cheese, garlic basil oil, mushrooms, pepperoni, onions
+- 748   1   four cheese, giant pepperoni
+- 390   1   four cheese, green peppers, beef, black olives, pineapple, onions, mushrooms
+- 479   1   four cheese, italian sausage, beef
+- 718   1   four cheese, jalapenos, mushrooms, onions, canadian bacon
+- 313   1   four cheese, jalapenos, onions
+- 562   1   four cheese, lettuce
+- 64   12   four cheese, mushrooms
+- 59   13   four cheese, mushrooms, pepperoni
+- 626   1   four cheese, onions, beef
+- 454   1   four cheese, pepperoni, artichokes, green peppers, mushrooms
+- 532   1   four cheese, pepperoni, diced white onions
+- 174   3   four cheese, pepperoni, italian sausage, black olives, mushrooms
+- 714   1   four cheese, pineapple, canadian bacon
+- 715   1   four cheese, pineapple, mushrooms, canadian bacon, black olives
+- 236   2   four cheese, pineapple, sausage
+- 45   16   four cheese, sausage
+- 629   1   four cheese, sausage, mushrooms, bacon, beef, onions
+- 491   1   fresh basil
+- 712   1   fresh basil, italian sausage, chicken, black olives
+- 76   8   garlic basil oil
+- 693   1   garlic basil oil, anchovies
+- 159   4   garlic basil oil, bacon, onions, black olives, beef
+- 677   1   garlic basil oil, four cheese
+- 520   1   garlic basil oil, mozzarella cheese, chicken
+- 207   3   garlic basil oil, pepperoni
+- 321   1   garlic basil oil, pepperoni, four cheese, mushrooms, onions, green peppers
+- 61   13   giant pepperoni
+- 554   1   giant pepperoni, carmelized red onion, pepperoni
+- 667   1   giant pepperoni, onions
+- 28   30   green peppers
+- 644   1   green peppers, beef, diced white onions
+- 319   1   green peppers, beef, mushrooms, bacon, jalapenos
+- 363   1   green peppers, black olives
+- 286   2   green peppers, black olives, chicken
+- 542   1   green peppers, canadian bacon, diced tomatoes, four cheese
+- 367   1   green peppers, canadian bacon, mozzarella cheese, onions
+- 643   1   green peppers, chicken, bacon, mushrooms, italian sausage, pineapple, sliced roma tomatoes, jalapenos, four cheese, carmelized red onion, garlic basil oil
+- 477   1   green peppers, diced white onions, chicken
+- 485   1   green peppers, diced white onions, mushrooms, italian sausage
+- 464   1   green peppers, diced white onions, sausage, bacon
+- 569   1   green peppers, four cheese
+- 516   1   green peppers, four cheese, parmesan parsley, diced white onions, diced tomatoes, beef
+- 579   1   green peppers, italian sausage, black olives
+- 357   1   green peppers, mushrooms
+- 654   1   green peppers, mushrooms, ham, pepperoni, black olives
+- 366   1   green peppers, mushrooms, onions, black olives
+- 687   1   green peppers, onions, four cheese, black olives, chicken, jalapenos, pepperoni
+- 518   1   green peppers, parmesan parsley, mozzarella cheese, diced tomatoes, beef, mushrooms, diced white onions
+- 589   1   green peppers, parmesan parsley, mozzarella cheese, italian sausage
+- 52   14   green peppers, pepperoni
+- 299   2   green peppers, pepperoni, bacon, mushrooms, jalapenos
+- 384   1   green peppers, pepperoni, beef, diced tomatoes, diced white onions
+- 676   1   green peppers, pepperoni, beef, mushrooms
+- 275   2   green peppers, pepperoni, italian sausage, diced white onions
+- 344   1   green peppers, pepperoni, italian sausage, mushrooms, diced white onions
+- 472   1   green peppers, pepperoni, mushrooms, mozzarella cheese, diced white onions, sausage
+- 674   1   green peppers, pineapple, diced tomatoes, jalapenos, mushrooms, artichokes, parmesan parsley
+- 750   1   green peppers, roasted red pepper, black olives, carmelized red onion, mozzarella cheese, mushrooms, beef
+- 719   1   green peppers, sausage, pepperoni, bacon, onions
+- 10   165   ham
+- 211   3   ham, anchovies, black olives
+- 110   5   ham, bacon
+- 96   6   ham, beef
+- 279   2   ham, beef, pepperoni
+- 273   2   ham, black olives
+- 514   1   ham, canadian bacon, mushrooms, black olives, four cheese
+- 576   1   ham, chicken, beef, green peppers
+- 406   1   ham, diced white onions
+- 208   3   ham, four cheese, beef
+- 323   1   ham, jalapenos, mushrooms
+- 541   1   ham, mushrooms
+- 614   1   ham, mushrooms, anchovies
+- 336   1   ham, mushrooms, bacon, beef, diced tomatoes, four cheese
+- 426   1   ham, mushrooms, bacon, beef, sausage, diced tomatoes
+- 503   1   ham, mushrooms, black olives
+- 522   1   ham, mushrooms, canadian bacon, diced tomatoes
+- 343   1   ham, mushrooms, canadian bacon, pepperoni, sausage, four cheese
+- 393   1   ham, mushrooms, diced tomatoes, pepperoni, chicken, sausage
+- 382   1   ham, mushrooms, diced tomatoes, pepperoni, sausage
+- 431   1   ham, mushrooms, pepperoni
+- 428   1   ham, mushrooms, pineapple, canadian bacon
+- 379   1   ham, mushrooms, pineapple, pepperoni
+- 182   3   ham, pepperoni, canadian bacon
+- 710   1   ham, pepperoni, chicken, sausage, diced tomatoes, green peppers
+- 102   6   ham, pepperoni, four cheese, sausage, pineapple
+- 716   1   ham, pepperoni, jalapenos
+- 557   1   ham, pepperoni, jalapenos, mushrooms, black olives
+- 263   2   ham, pepperoni, pineapple
+- 39   21   ham, pineapple
+- 649   1   ham, pineapple, diced white onions
+- 136   4   ham, sausage
+- 26   37   hot peppers
+- 197   3   hot peppers, beef
+- 590   1   hot peppers, canadian bacon, bacon, chicken, mushrooms, four cheese
+- 468   1   hot peppers, four cheese
+- 564   1   hot peppers, four cheese, green peppers, black olives, pepperoni
+- 418   1   hot peppers, four cheese, pepperoni, pineapple
+- 641   1   hot peppers, jalapenos
+- 480   1   hot peppers, jalapenos, pepperoni
+- 592   1   hot peppers, pepperoni, black olives, mushrooms, diced white onions, four cheese
+- 281   2   hot peppers, pepperoni, mushrooms
+- 350   1   hot peppers, pepperoni, sausage
+- 161   3   hot peppers, sausage
+- 7   361   italian sausage
+- 40   21   italian sausage, bacon
+- 359   1   italian sausage, bacon, anchovies, black olives, mushrooms
+- 610   1   italian sausage, bacon, black olives, pepperoni, four cheese
+- 70   9   italian sausage, bacon, pepperoni
+- 164   3   italian sausage, bacon, pepperoni, chicken
+- 506   1   italian sausage, black olives, diced white onions
+- 228   2   italian sausage, canadian bacon
+- 642   1   italian sausage, canadian bacon, four cheese
+- 484   1   italian sausage, canadian bacon, pepperoni, sausage, four cheese, chicken
+- 556   1   italian sausage, chicken
+- 266   2   italian sausage, chicken, pepperoni
+- 526   1   italian sausage, diced tomatoes, artichokes, pepperoni, bacon, beef, green peppers, four cheese, sausage
+- 734   1   italian sausage, diced tomatoes, diced white onions
+- 534   1   italian sausage, diced white onions
+- 448   1   italian sausage, diced white onions, green peppers, four cheese
+- 709   1   italian sausage, diced white onions, mozzarella cheese
+- 65   11   italian sausage, four cheese
+- 255   2   italian sausage, four cheese, bacon, pepperoni
+- 253   2   italian sausage, four cheese, diced white onions
+- 230   2   italian sausage, ham
+- 46   16   italian sausage, mushrooms
+- 212   3   italian sausage, onions, green peppers, mushrooms
+- 19   85   italian sausage, pepperoni
+- 544   1   italian sausage, pepperoni, artichokes, diced white onions, black olives, diced tomatoes
+- 427   1   italian sausage, pepperoni, bacon, canadian bacon
+- 180   3   italian sausage, pepperoni, beef
+- 346   1   italian sausage, pepperoni, beef, black olives
+- 171   3   italian sausage, pepperoni, black olives
+- 535   1   italian sausage, pepperoni, diced tomatoes, black olives, onions, four cheese
+- 388   1   italian sausage, pepperoni, diced white onions
+- 326   1   italian sausage, pepperoni, four cheese, canadian bacon, mozzarella cheese
+- 213   3   italian sausage, pepperoni, ham, bacon
+- 440   1   italian sausage, sausage, ham, mushrooms, diced tomatoes, pepperoni
+- 616   1   italian sausage, sausage, mushrooms, bacon, pepperoni
+- 205   3   italian sausage, sausage, pepperoni, bacon
+- 733   1   italian sausage, sliced roma tomatoes, bacon
+- 23   51   jalapenos
+- 647   1   jalapenos, bacon, sausage
+- 580   1   jalapenos, beef, four cheese
+- 470   1   jalapenos, beef, pepperoni, mushrooms, mozzarella cheese
+- 314   1   jalapenos, black olives, green peppers, canadian bacon, four cheese
+- 305   1   jalapenos, canadian bacon, beef
+- 140   4   jalapenos, canadian bacon, mushrooms, four cheese
+- 550   1   jalapenos, carmelized red onion, four cheese, pepperoni
+- 694   1   jalapenos, carmelized red onion, roasted red pepper, pepperoni, bacon
+- 132   4   jalapenos, four cheese, pepperoni
+- 404   1   jalapenos, green peppers, beef, onions
+- 257   2   jalapenos, italian sausage, pepperoni, sausage
+- 371   1   jalapenos, mushrooms, diced tomatoes
+- 21   67   jalapenos, pepperoni
+- 512   1   jalapenos, pepperoni, bacon, green peppers, pineapple, beef
+- 90   7   jalapenos, pepperoni, black olives
+- 650   1   jalapenos, pepperoni, green peppers, ham
+- 262   2   jalapenos, pepperoni, italian sausage
+- 401   1   jalapenos, pepperoni, pineapple, ham, mushrooms
+- 429   1   jalapenos, pineapple
+- 134   4   jalapenos, pineapple, bacon
+- 449   1   jalapenos, sausage, canadian bacon
+- 630   1   lettuce
+- 2   1014   mozzarella cheese
+- 505   1   mozzarella cheese, artichokes, black olives
+- 160   3   mozzarella cheese, bacon, beef, onions, pineapple
+- 54   14   mozzarella cheese, beef
+- 284   2   mozzarella cheese, beef, black olives, mushrooms
+- 67   10   mozzarella cheese, beef, pepperoni
+- 353   1   mozzarella cheese, beef, pineapple
+- 729   1   mozzarella cheese, black olives, italian sausage
+- 126   5   mozzarella cheese, black olives, mushrooms
+- 82   7   mozzarella cheese, canadian bacon
+- 224   2   mozzarella cheese, canadian bacon, four cheese
+- 311   1   mozzarella cheese, canadian bacon, mushrooms, beef
+- 698   1   mozzarella cheese, canadian bacon, mushrooms, four cheese
+- 741   1   mozzarella cheese, canadian bacon, pepperoni, green peppers
+- 308   1   mozzarella cheese, cheddar cheese
+- 94   6   mozzarella cheese, chicken
+- 221   2   mozzarella cheese, chicken, mushrooms
+- 238   2   mozzarella cheese, diced tomatoes
+- 451   1   mozzarella cheese, diced tomatoes, four cheese, mushrooms
+- 543   1   mozzarella cheese, diced tomatoes, mushrooms, black olives
+- 35   23   mozzarella cheese, four cheese
+- 624   1   mozzarella cheese, four cheese, chicken
+- 72   9   mozzarella cheese, four cheese, pepperoni
+- 509   1   mozzarella cheese, giant pepperoni
+- 386   1   mozzarella cheese, green peppers, diced white onions, italian sausage
+- 304   1   mozzarella cheese, green peppers, mushrooms
+- 88   7   mozzarella cheese, ham
+- 139   4   mozzarella cheese, hot peppers
+- 603   1   mozzarella cheese, hot peppers, sliced roma tomatoes, carmelized red onion, rosa grande pepperoni
+- 85   7   mozzarella cheese, italian sausage
+- 671   1   mozzarella cheese, italian sausage, pepperoni
+- 265   2   mozzarella cheese, italian sausage, pepperoni, ham
+- 494   1   mozzarella cheese, jalapenos, artichokes, diced tomatoes, mushrooms, pepperoni, green peppers
+- 730   1   mozzarella cheese, jalapenos, bacon, beef
+- 356   1   mozzarella cheese, jalapenos, parmesan parsley, diced tomatoes, four cheese, pepperoni, italian sausage, mushrooms, onions
+- 548   1   mozzarella cheese, lettuce
+- 167   3   mozzarella cheese, mushrooms
+- 558   1   mozzarella cheese, mushrooms, bacon, pepperoni, italian sausage, four cheese
+- 288   2   mozzarella cheese, mushrooms, beef
+- 515   1   mozzarella cheese, mushrooms, black olives, four cheese
+- 412   1   mozzarella cheese, mushrooms, black olives, jalapenos, chicken
+- 320   1   mozzarella cheese, mushrooms, diced white onions, canadian bacon
+- 92   7   mozzarella cheese, mushrooms, italian sausage, pepperoni
+- 368   1   mozzarella cheese, onions, pepperoni, mushrooms, artichokes, green peppers
+- 528   1   mozzarella cheese, parmesan parsley
+- 12   155   mozzarella cheese, pepperoni
+- 121   5   mozzarella cheese, pepperoni, black olives
+- 555   1   mozzarella cheese, pepperoni, cheddar cheese, four cheese
+- 407   1   mozzarella cheese, pepperoni, chicken
+- 325   1   mozzarella cheese, pepperoni, ham
+- 705   1   mozzarella cheese, pepperoni, jalapenos, sausage
+- 540   1   mozzarella cheese, pepperoni, sausage, black olives
+- 124   5   mozzarella cheese, pineapple
+- 142   4   mozzarella cheese, pineapple, bacon
+- 623   1   mozzarella cheese, pineapple, mushrooms
+- 58   13   mozzarella cheese, sausage
+- 282   2   mozzarella cheese, sliced breaded chicken breast
+- 11   159   mushrooms
+- 570   1   mushrooms, anchovies, ham, black olives
+- 27   30   mushrooms, bacon
+- 293   2   mushrooms, bacon, four cheese, black olives, sausage
+- 438   1   mushrooms, bacon, sausage
+- 37   22   mushrooms, beef
+- 539   1   mushrooms, beef, bacon, pineapple
+- 442   1   mushrooms, beef, ham
+- 298   2   mushrooms, beef, onions
+- 395   1   mushrooms, beef, sausage, onions, anchovies
+- 93   6   mushrooms, black olives
+- 414   1   mushrooms, black olives, artichokes, canadian bacon, pepperoni, green peppers, four cheese, diced white onions, parmesan parsley
+- 179   3   mushrooms, black olives, bacon
+- 513   1   mushrooms, black olives, pineapple
+- 504   1   mushrooms, canadian bacon
+- 413   1   mushrooms, chicken, mozzarella cheese, green peppers
+- 430   1   mushrooms, chicken, pepperoni, bacon, four cheese
+- 210   3   mushrooms, chicken, pepperoni, hot peppers, bacon
+- 582   1   mushrooms, chicken, pepperoni, sausage, four cheese
+- 292   2   mushrooms, diced tomatoes, black olives, sliced breaded chicken breast
+- 333   1   mushrooms, diced tomatoes, pepperoni, bacon, sausage, black olives
+- 315   1   mushrooms, four cheese, anchovies
+- 460   1   mushrooms, four cheese, beef, diced tomatoes, pepperoni
+- 552   1   mushrooms, four cheese, beef, pepperoni, hot peppers
+- 529   1   mushrooms, four cheese, beef, sausage, pepperoni
+- 183   3   mushrooms, four cheese, hot peppers, pepperoni
+- 636   1   mushrooms, giant pepperoni, four cheese, bacon
+- 747   1   mushrooms, green peppers, bacon, pepperoni
+- 588   1   mushrooms, green peppers, bacon, pepperoni, mushrooms, diced white onions, canadian bacon, sausage
+- 198   3   mushrooms, green peppers, canadian bacon, pepperoni
+- 600   1   mushrooms, green peppers, four cheese, bacon
+- 492   1   mushrooms, green peppers, pepperoni, four cheese, diced white onions, sausage
+- 252   2   mushrooms, hot peppers
+- 738   1   mushrooms, italian sausage, black olives, diced white onions, diced tomatoes
+- 269   2   mushrooms, italian sausage, pepperoni
+- 156   4   mushrooms, jalapenos
+- 645   1   mushrooms, jalapenos, four cheese, hot peppers
+- 620   1   mushrooms, mozzarella cheese, anchovies, black olives, mushrooms, italian sausage
+- 215   2   mushrooms, mozzarella cheese, canadian bacon
+- 463   1   mushrooms, mozzarella cheese, jalapenos, italian sausage, pepperoni
+- 369   1   mushrooms, mozzarella cheese, pepperoni, green peppers, black olives
+- 130   4   mushrooms, mozzarella cheese, pepperoni, onions
+- 247   2   mushrooms, mushrooms
+- 335   1   mushrooms, mushrooms, four cheese, beef
+- 370   1   mushrooms, onions
+- 324   1   mushrooms, onions, black olives, bacon, sausage
+- 146   4   mushrooms, pepperoni, black olives
+- 593   1   mushrooms, pepperoni, black olives, bacon, green peppers, diced white onions
+- 374   1   mushrooms, pepperoni, black olives, bacon, italian sausage, onions
+- 443   1   mushrooms, pepperoni, black olives, pineapple, canadian bacon
+- 271   2   mushrooms, pepperoni, four cheese, bacon
+- 277   2   mushrooms, pepperoni, green peppers, canadian bacon, black olives
+- 602   1   mushrooms, pepperoni, italian sausage, diced white onions, mozzarella cheese
+- 225   2   mushrooms, pepperoni, mushrooms
+- 631   1   mushrooms, pineapple, italian sausage, carmelized red onion, four cheese, bacon
+- 533   1   mushrooms, pineapple, italian sausage, four cheese
+- 347   1   mushrooms, refried beans, beef, black olives, four cheese, diced tomatoes, onions
+- 294   2   mushrooms, roasted red pepper, chicken
+- 661   1   mushrooms, sausage, bacon, pineapple
+- 607   1   mushrooms, sausage, black olives, beef, bacon, italian sausage
+- 634   1   mushrooms, sausage, four cheese
+- 560   1   mushrooms, sliced breaded chicken breast, bacon
+- 38   22   onions
+- 300   2   onions, artichokes, mushrooms, chicken
+- 166   3   onions, bacon
+- 342   1   onions, bacon, sliced breaded chicken breast
+- 309   1   onions, green peppers, diced white onions
+- 302   2   onions, ham, mushrooms, black olives, italian sausage, pepperoni, diced tomatoes
+- 417   1   onions, italian sausage, canadian bacon, pepperoni
+- 678   1   onions, jalapenos, italian sausage, mushrooms
+- 143   4   onions, pepperoni
+- 290   2   parmesan parsley, canadian bacon, four cheese, alredo sauce
+- 691   1   parmesan parsley, diced tomatoes, jalapenos
+- 1   4616   pepperoni
+- 89   7   pepperoni, alredo sauce
+- 701   1   pepperoni, alredo sauce, mushrooms
+- 633   1   pepperoni, alredo sauce, sausage
+- 50   15   pepperoni, anchovies
+- 104   5   pepperoni, artichokes
+- 584   1   pepperoni, artichokes, diced white onions
+- 186   3   pepperoni, bacon, black olives, four cheese
+- 133   4   pepperoni, bacon, chicken
+- 170   3   pepperoni, bacon, chicken, four cheese
+- 332   1   pepperoni, bacon, diced tomatoes, mushrooms, chicken
+- 119   5   pepperoni, bacon, four cheese
+- 740   1   pepperoni, bacon, four cheese, carmelized red onion
+- 98   6   pepperoni, bacon, pineapple
+- 13   122   pepperoni, beef
+- 496   1   pepperoni, beef, bacon, jalapenos, onions
+- 736   1   pepperoni, beef, cheddar cheese, bacon, sausage, mushrooms
+- 113   5   pepperoni, beef, four cheese
+- 425   1   pepperoni, beef, italian sausage, diced white onions, black olives, four cheese, green peppers
+- 138   4   pepperoni, beef, mushrooms
+- 697   1   pepperoni, beef, onions
+- 627   1   pepperoni, beef, pineapple, cheddar cheese
+- 31   28   pepperoni, black olives
+- 278   2   pepperoni, black olives, artichokes
+- 598   1   pepperoni, black olives, bacon, beef, mushrooms
+- 105   5   pepperoni, black olives, bacon, mushrooms
+- 190   3   pepperoni, black olives, beef, mushrooms
+- 663   1   pepperoni, black olives, cheddar cheese, mushrooms, sausage
+- 267   2   pepperoni, black olives, four cheese
+- 354   1   pepperoni, black olives, four cheese, sausage
+- 486   1   pepperoni, black olives, mushrooms, sausage, onions
+- 295   2   pepperoni, canadian bacon, four cheese, alredo sauce
+- 227   2   pepperoni, canadian bacon, four cheese, bacon
+- 365   1   pepperoni, canadian bacon, jalapenos
+- 659   1   pepperoni, canadian bacon, pineapple
+- 364   1   pepperoni, canadian bacon, pineapple, onions
+- 452   1   pepperoni, carmelized red onion
+- 508   1   pepperoni, carmelized red onion, mushrooms
+- 437   1   pepperoni, cheddar cheese, bacon, four cheese, mushrooms, black olives
+- 53   14   pepperoni, chicken
+- 635   1   pepperoni, diced tomatoes, hot peppers, bacon, mushrooms
+- 419   1   pepperoni, diced tomatoes, mushrooms, pineapple
+- 195   3   pepperoni, diced white onions
+- 721   1   pepperoni, diced white onions, diced tomatoes, black olives, italian sausage
+- 499   1   pepperoni, diced white onions, diced tomatoes, black olives, mushrooms, beef
+- 128   5   pepperoni, diced white onions, green peppers
+- 613   1   pepperoni, diced white onions, green peppers, bacon, ham
+- 153   4   pepperoni, diced white onions, mushrooms, four cheese, diced tomatoes
+- 469   1   pepperoni, feta cheese, sausage
+- 9   203   pepperoni, four cheese
+- 222   2   pepperoni, four cheese, beef, mushrooms
+- 223   2   pepperoni, four cheese, black olives, beef, mushrooms
+- 707   1   pepperoni, four cheese, canadian bacon, beef, pineapple
+- 181   3   pepperoni, four cheese, garlic basil oil
+- 289   2   pepperoni, four cheese, green peppers, mushrooms
+- 652   1   pepperoni, four cheese, green peppers, onions, chicken
+- 331   1   pepperoni, garlic basil oil, sliced breaded chicken breast, four cheese, diced white onions, artichokes
+- 285   2   pepperoni, giant pepperoni
+- 493   1   pepperoni, green peppers, artichokes, parmesan parsley, diced tomatoes, black olives, mushrooms, four cheese
+- 387   1   pepperoni, green peppers, bacon, diced white onions, sausage, black olives
+- 415   1   pepperoni, green peppers, diced tomatoes, pineapple
+- 280   2   pepperoni, green peppers, diced white onions, parmesan parsley
+- 209   3   pepperoni, green peppers, four cheese, diced white onions
+- 303   2   pepperoni, green peppers, garlic basil oil, italian sausage, four cheese
+- 287   2   pepperoni, green peppers, jalapenos, canadian bacon, four cheese, sausage, black olives
+- 530   1   pepperoni, green peppers, mushrooms
+- 500   1   pepperoni, green peppers, mushrooms, italian sausage
+- 358   1   pepperoni, green peppers, onions, italian sausage, mushrooms
+- 628   1   pepperoni, green peppers, onions, mushrooms, black olives
+- 41   20   pepperoni, ham
+- 145   4   pepperoni, ham, sausage
+- 274   2   pepperoni, italian sausage, anchovies
+- 122   5   pepperoni, italian sausage, four cheese
+- 686   1   pepperoni, italian sausage, four cheese, mushrooms, ham, beef
+- 175   3   pepperoni, italian sausage, ham
+- 381   1   pepperoni, italian sausage, jalapenos, canadian bacon, mushrooms
+- 334   1   pepperoni, italian sausage, jalapenos, diced white onions, anchovies, black olives
+- 679   1   pepperoni, italian sausage, mushrooms, four cheese
+- 408   1   pepperoni, italian sausage, pineapple
+- 531   1   pepperoni, italian sausage, pineapple, diced white onions, mushrooms
+- 605   1   pepperoni, italian sausage, pineapple, four cheese
+- 240   2   pepperoni, italian sausage, sausage
+- 668   1   pepperoni, jalapenos, beef, mushrooms
+- 439   1   pepperoni, jalapenos, diced tomatoes, pineapple
+- 575   1   pepperoni, jalapenos, diced white onions, mushrooms
+- 523   1   pepperoni, jalapenos, four cheese, mushrooms
+- 322   1   pepperoni, jalapenos, mushrooms, black olives, italian sausage
+- 420   1   pepperoni, jalapenos, onions
+- 466   1   pepperoni, mozzarella cheese, diced tomatoes
+- 103   6   pepperoni, mozzarella cheese, mushrooms
+- 690   1   pepperoni, mozzarella cheese, mushrooms, beef
+- 617   1   pepperoni, mozzarella cheese, pineapple, bacon
+- 22   60   pepperoni, mushrooms
+- 546   1   pepperoni, mushrooms, bacon, ham, canadian bacon, mushrooms, pineapple, beef, giant pepperoni
+- 744   1   pepperoni, mushrooms, diced white onions, italian sausage
+- 553   1   pepperoni, mushrooms, four cheese, diced tomatoes
+- 594   1   pepperoni, mushrooms, green peppers, diced white onions, black olives
+- 150   4   pepperoni, mushrooms, ham, black olives
+- 234   2   pepperoni, mushrooms, jalapenos
+- 163   3   pepperoni, mushrooms, onions
+- 595   1   pepperoni, mushrooms, sausage, black olives
+- 259   2   pepperoni, mushrooms, sausage, ham
+- 392   1   pepperoni, onions, black olives, artichokes, bacon
+- 447   1   pepperoni, onions, canadian bacon, green peppers, mushrooms
+- 400   1   pepperoni, onions, italian sausage, mushrooms
+- 749   1   pepperoni, onions, mushrooms, four cheese, diced tomatoes
+- 42   19   pepperoni, pineapple
+- 51   15   pepperoni, pineapple, beef
+- 318   1   pepperoni, pineapple, black olives, bacon
+- 148   4   pepperoni, pineapple, italian sausage, beef
+- 188   3   pepperoni, sausage, beef
+- 662   1   pepperoni, sausage, canadian bacon, bacon
+- 737   1   pepperoni, sausage, cheddar cheese
+- 117   5   pepperoni, sausage, chicken
+- 49   15   pepperoni, sausage, four cheese
+- 204   3   pepperoni, sausage, four cheese, mushrooms
+- 658   1   pepperoni, sausage, green peppers
+- 611   1   pepperoni, sausage, jalapenos, mushrooms
+- 235   2   pepperoni, sausage, pineapple
+- 115   5   pepperoni, sliced breaded chicken breast
+- 640   1   pepperoni, sliced roma tomatoes, bacon, jalapenos, carmelized red onion, four cheese
+- 20   79   pineapple
+- 25   39   pineapple, bacon
+- 83   7   pineapple, bacon, four cheese
+- 380   1   pineapple, bacon, mushrooms, four cheese
+- 665   1   pineapple, bacon, onions, mushrooms, green peppers, diced tomatoes
+- 704   1   pineapple, beef, mushrooms, rosa grande pepperoni, pepperoni, four cheese, onions
+- 241   2   pineapple, black olives, bacon, beef
+- 700   1   pineapple, black olives, mushrooms, bacon, jalapenos
+- 409   1   pineapple, black olives, mushrooms, canadian bacon
+- 306   1   pineapple, canadian bacon, beef
+- 301   2   pineapple, cheddar cheese, bacon
+- 581   1   pineapple, chicken, mozzarella cheese
+- 723   1   pineapple, diced tomatoes, four cheese, bacon, chicken, onions
+- 583   1   pineapple, diced white onions, pepperoni
+- 155   4   pineapple, four cheese, black olives
+- 187   3   pineapple, four cheese, pepperoni
+- 191   3   pineapple, ham, bacon
+- 501   1   pineapple, italian sausage
+- 571   1   pineapple, mushrooms
+- 511   1   pineapple, mushrooms, beef, four cheese
+- 251   2   pineapple, mushrooms, diced tomatoes
+- 416   1   pineapple, mushrooms, italian sausage, bacon, pepperoni, salami
+- 310   1   pineapple, mushrooms, jalapenos
+- 695   1   pineapple, pepperoni, bacon, canadian bacon, ham
+- 725   1   pineapple, pepperoni, bacon, jalapenos
+- 502   1   pineapple, pepperoni, mozzarella cheese
+- 71   9   refried beans
+- 307   1   refried beans, diced white onions, mushrooms, feta cheese, diced tomatoes, four cheese, beef, black olives, onions
+- 316   1   refried beans, mozzarella cheese, mushrooms, black olives, beef, four cheese, diced tomatoes
+- 713   1   roasted red pepper
+- 127   5   rosa grande pepperoni
+- 524   1   salami, pepperoni, ham, italian sausage, canadian bacon, four cheese, beef, sausage
+- 6   402   sausage
+- 249   2   sausage, alredo sauce
+- 48   15   sausage, bacon
+- 551   1   sausage, bacon, mushrooms, pepperoni
+- 47   15   sausage, beef
+- 193   3   sausage, beef, pepperoni, bacon
+- 375   1   sausage, beef, pepperoni, black olives, mushrooms, bacon
+- 56   13   sausage, black olives
+- 722   1   sausage, black olives, pineapple
+- 612   1   sausage, canadian bacon
+- 424   1   sausage, canadian bacon, four cheese
+- 229   2   sausage, canadian bacon, ham, mushrooms, diced tomatoes
+- 114   5   sausage, chicken
+- 717   1   sausage, diced tomatoes
+- 201   3   sausage, diced white onions
+- 340   1   sausage, four cheese, mushrooms, jalapenos, onions, pepperoni
+- 200   3   sausage, italian sausage
+- 237   2   sausage, jalapenos
+- 154   4   sausage, jalapenos, pepperoni
+- 258   2   sausage, mozzarella cheese, bacon
+- 69   10   sausage, mozzarella cheese, pepperoni
+- 283   2   sausage, mozzarella cheese, pepperoni, black olives, beef, italian sausage
+- 60   13   sausage, mushrooms
+- 243   2   sausage, mushrooms, black olives
+- 727   1   sausage, mushrooms, green peppers
+- 352   1   sausage, mushrooms, green peppers, four cheese
+- 254   2   sausage, mushrooms, jalapenos
+- 702   1   sausage, mushrooms, rosa grande pepperoni, black olives, four cheese, onions, giant pepperoni, mozzarella cheese
+- 17   97   sausage, pepperoni
+- 536   1   sausage, pepperoni, green peppers, diced white onions
+- 450   1   sausage, pepperoni, jalapenos, green peppers, chicken
+- 108   5   sausage, pepperoni, mushrooms
+- 231   2   sausage, pepperoni, onions, beef, italian sausage
+- 194   3   sausage, sliced breaded chicken breast
+- 24   39   sliced breaded chicken breast
+- 151   4   sliced breaded chicken breast, bacon
+- 743   1   sliced breaded chicken breast, four cheese, pepperoni
+- 378   1   sliced breaded chicken breast, pineapple, bacon
+- 129   5   sliced roma tomatoes
+- 648   1   sliced roma tomatoes, four cheese, bacon
